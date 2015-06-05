@@ -1,4 +1,6 @@
 <!doctype html>
+<!-- The ng-app directive initializes an AngularJS application. -->
+<!-- Angular uses spinal-case for its custom attributes -->
 <html lang="en" ng-app>
 <head>
   <meta charset="utf-8">
@@ -8,8 +10,8 @@
   <script src="bower_components/angular/angular.js"></script>
 </head>
 <body>
-
+  <!-- The template contains just one directive and one static binding, and our model is empty -->
   <p>Nothing here {{'yet' + '!'}}</p>
-
+  <p>1 + 2 = {{ 1 + 2 }}</p>
 </body>
 </html>
