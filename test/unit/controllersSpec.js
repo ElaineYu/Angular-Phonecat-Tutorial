@@ -1,6 +1,8 @@
 'use strict';
 
 /* jasmine specs for controllers go here */
+// Tests non-global controller
+// https://docs.angularjs.org/tutorial/step_02
 describe('PhoneCat controllers', function() {
 
   describe('PhoneListCtrl', function(){
