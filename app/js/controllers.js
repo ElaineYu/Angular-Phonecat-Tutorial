@@ -17,5 +17,9 @@ phonecatApp.controller('PhoneListCtrl', function($scope) {
      'age': 3}
   ];
 
+// We added a line to the controller that sets the default
+// value of orderProp to age. If we had not set a default value
+// here, the orderBy filter would remain uninitialized until our
+// user picked an option from the drop down menu.
   $scope.orderProp = 'age';
 });
