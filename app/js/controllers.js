@@ -2,6 +2,9 @@
 
 /* Controllers */
 
+//  new module called phonecatControllers
+// As your application grows, it is quite common to refactor
+// your code into additional modules
 var phonecatControllers = angular.module('phonecatControllers', []);
 
 phonecatControllers.controller('PhoneListCtrl', ['$scope', '$http',
@@ -13,6 +16,7 @@ phonecatControllers.controller('PhoneListCtrl', ['$scope', '$http',
     $scope.orderProp = 'age';
   }]);
 
+// The $routeParams service allows you to retrieve the current set of route parameters.
 phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams',
   function($scope, $routeParams) {
     $scope.phoneId = $routeParams.phoneId;
