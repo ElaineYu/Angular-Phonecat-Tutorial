@@ -2,6 +2,7 @@
 
 /* App Module */
 
+// We need to add the 'phonecatServices' module dependency to 'phonecatApp' module's requires array.
 var phonecatApp = angular.module('phonecatApp', [
   'ngRoute',
   'phonecatControllers',
